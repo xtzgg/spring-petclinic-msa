@@ -28,7 +28,7 @@ jobs:
   customers-service:
     docker:
       - image: circleci/openjdk:8u242-jdk
-    working_directory: ~/spring-petclinic-msa/customers-service
+    working_directory: ~/spring2go/customers-service
     steps:
       - build-service:
           service-name: "customers-service"
